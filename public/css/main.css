@@ -1,0 +1,47 @@
+body {
+    background-color: rgba(143, 159, 166, 0.47);
+}
+
+#chat-logo {
+    width: 60px;
+    display: inline-block;
+}
+
+#chat-name {
+    display: inline-block;
+    font-weight: 700;
+    font-size: 25px;
+    font-family: Broadway, serif;
+}
+
+.panel .panel-body {
+    height: 650px;
+}
+
+#msg-user {
+    color: #0e075e;
+    display: inline-block;
+    font-weight: 700;
+}
+
+#msg-text {
+    color: #4c73b6;
+    display: inline-block;
+}
+
+.panel {
+    border-width: 3px;
+    border-color: #e6e6e6;
+    border-style: solid;
+    box-shadow: 0 0px 43px 0 rgba(0, 0, 0, 0.31), 0 0px 21px 0 rgba(0, 0, 0, 0.33);
+}
+
+#err {
+    color: darkred;
+    font-weight: 900;
+}
+
+.pre-scrollable {
+    max-height: 650px;
+    overflow-y: scroll;
+}
